@@ -3,11 +3,11 @@ import java.util.ArrayList;
 
 public class Concesionario {
     private List<Vehiculo> inventario = new ArrayList<>(); // Lista de vehículos disponibles
-    private List<Venta> ventas = new ******; // Lista de ventas realizadas
+    private List<Venta> ventas = new ArrayList<>(); // Lista de ventas realizadas
 
     // Método para agregar un vehículo al inventario
     public void agregarVehiculo(Vehiculo vehiculo) {
-        ********.add(vehiculo);
+        inventario.add(vehiculo);
     }
 
     // Método para realizar una venta de un vehículo
