@@ -6,16 +6,15 @@ public class Concesionario {
     private List<Venta> ventas = new ArrayList<>(); // Lista de ventas realizadas
 
     // Método para agregar un vehículo al inventario
-    public void agregarVehiculo(Vehiculo vehiculo) {
-        inventario.add(vehiculo);
+    public void agregarVehiculo(Vehiculo vehiculo) {inventario.add(vehiculo);
     }
 
     // Método para realizar una venta de un vehículo
     public void realizarVenta(String codigoVehiculo, double monto, String apellido, String nombre, String documento) {
-        Vehiculo vehiculoVendido = *****;
+        Vehiculo vehiculoVendido = null;
         // Buscar el vehículo en el inventario
         for (Vehiculo v : inventario) {
-            if (v.getCodigo().equals(codigo*******)) {
+            if (v.getCodigo().equals(codigoVehiculo)) {
                 vehiculoVendido = v;
                 break;
             }
